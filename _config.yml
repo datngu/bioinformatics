@@ -22,7 +22,8 @@ authors:
     Dat:
       name:           Dat
       site:           https://dattn.com/
-      avatar:         /assets/images/avata.jpg
+      #avatar:         /assets/images/avata.jpg
+      gravatar:       4c10ff28fe545b751bc552248d938859
       bio:            "Hi, I am Dat, the author of dattn.com. I hope you like my blog!"
       email:          n.dat@outlook.com
       twitter:        https://dattn.com/
