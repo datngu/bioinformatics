@@ -1,12 +1,12 @@
 # Site
-name: 'Mundana'
-description: 'Mundana is a free Jekyll theme for awesome people like you, Medium like.'
+name: 'Tôi Làm Tin Sinh'
+description: 'Nơi những câu chuyện về Tin Sinh bắt đầu ...'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: ''
+baseurl: 
 disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+email: 'n.dat@outlook.com'
+mailchimp-list: 'https://datnt.us7.list-manage.com/subscribe?u=3be95e9ff8d5d4544fc572811&id=53bec2da30'
 
 include: ["_pages"]
 permalink: /:title/
@@ -18,22 +18,16 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   
+# Authors
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
-
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+  dat:
+    name: Dat
+    display_name: Dat T Nguyen
+    gravatar: 4c10ff28fe545b751bc552248d938859
+    email: n.dat@outlook.com
+    web: https://dattn.com/
+    twitter: https://dattn.com/
+    description: "Dat is a computational biologist, a data scientist specilized in medical science."
  
 # Defaults
 defaults:
@@ -43,7 +37,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: dat
       avatar: /assets/images/avatar1.jpg
       
   # all pages
