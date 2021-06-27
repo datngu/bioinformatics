@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    dat:
+    Dat:
       name:           Dat
       site:           https://dattn.com/
       avatar:         /assets/images/avata.jpg
@@ -36,7 +36,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: dat
+      author: Dat
       avatar: /assets/images/avata.jpg
       
   # all pages
