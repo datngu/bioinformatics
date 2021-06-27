@@ -20,14 +20,13 @@ plugins:
   
 # Authors
 authors:
-  dat:
-    name: Dat
-    display_name: Dat T Nguyen
-    gravatar: 4c10ff28fe545b751bc552248d938859
-    email: n.dat@outlook.com
-    web: https://dattn.com/
-    twitter: https://dattn.com/
-    description: "Dat is a computational biologist, a data scientist specilized in medical science."
+    dat:
+      name:           Dat T Nguyen
+      site:           https://dattn.com/
+      avatar:         /assets/images/dat_ava.jpg
+      bio:            "Dat is a computational biologist, a data scientist specilized in medical science!."
+      email:          n.dat@outlook.com
+      twitter:        
  
 # Defaults
 defaults:
