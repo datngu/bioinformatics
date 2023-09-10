@@ -2,7 +2,7 @@
 name: 'Khoa học dữ liệu - Tin sinh'
 description: 'Chia sẽ về khoa học dữ liệu và tin sinh học ...'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/logo.png'
 baseurl: 
 disqus: 'demowebsite'
 email: 'n.dat@outlook.com'
@@ -38,7 +38,7 @@ defaults:
     values:
       layout: post
       author: Dat
-      avatar: assets/images/avatar1.jpg
+      avatar: 'assets/images/avatar1.jpg'
       
   # all pages
   - scope:
