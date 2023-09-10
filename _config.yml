@@ -1,6 +1,6 @@
 # Site
-name: 'Tôi Làm Tin Sinh'
-description: 'Nơi những câu chuyện về Tin Sinh bắt đầu ...'
+name: 'Khoa học dữ liệu - Tin sinh'
+description: 'Chia sẽ về khoa học dữ liệu và tin sinh học ...'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: 
@@ -38,7 +38,7 @@ defaults:
     values:
       layout: post
       author: Dat
-      avatar: /assets/images/avata.jpg
+      avatar: assets/images/avatar1.jpg
       
   # all pages
   - scope:
