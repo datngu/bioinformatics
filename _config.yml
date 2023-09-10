@@ -1,10 +1,10 @@
 # Site
 name: "datn"
-title: "Dat T Nguyen"
-description: "Where Dat's stories are collected..."
+title: "Khoa học dữ liệu - Tin sinh"
+description: "Nơi chia sẽ về khoa học dữ liệu và tin sinh học..."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: 
+baseurl:
 google_analytics: 'UA-xxxxxxxx-1'
 disqus: 'demowebsite'
 mailchimp-list: 'https://datnt.us7.list-manage.com/subscribe?u=3be95e9ff8d5d4544fc572811&id=53bec2da30'
