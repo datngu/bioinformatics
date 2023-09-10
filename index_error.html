@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Posts Index
+================================================== -->
+<div class="blog-grid-container">
+    {% for post in site.posts %}
+
+        {% if post.featured == true %}
+
+            {% include postbox.html %}
+
+        {% endif %}
+
+    {% endfor %}
+</div>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>
+
