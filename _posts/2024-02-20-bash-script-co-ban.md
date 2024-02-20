@@ -12,10 +12,13 @@ image: assets/my_figs/ds/bash_script.jpg
 * Terminal (còn gọi là Command Line Interface - CLI) là giao diện dòng lệnh cho phép người dùng tương tác trực tiếp với hệ thống bằng cách nhập các lệnh văn bản.
 * Terminal cung cấp khả năng truy cập và điều khiển hệ thống mạnh mẽ, linh hoạt hơn so với giao diện đồ họa (GUI).
 * Terminal thường được sử dụng bởi các quản trị viên hệ thống, lập trình viên và những người dùng có kinh nghiệm về hệ thống.
+* Ngoài ra, Terminal cũng được sử dụng cực kỳ phổ biến trong tin sinh học, chủ yếu dùng để thao tác và điều khiển những máy tính có hiệu năng cao (HPC) để thực hiện những tính toán chuyên biệt
 
 **Bash Script:**
 
-* Bash Script là tập tin văn bản chứa các lệnh bash được thực thi tuần tự.
+Thay vì phải copy và paste từng dòng lệnh vào terminal, và lặp đi lặp lại, Bash Scipt là bước tiếp theo để giúp bạn liệt kê những câu lệnh vào 1 file text, và giúp máy tính thực hiện công việc một cách tự động...
+
+* Bash Script là tập tin văn bản chứa các lệnh bash được thực thi tuần tự. 
 * Bash Script giúp tự động hóa các tác vụ lặp đi lặp lại trên hệ thống, tiết kiệm thời gian và công sức.
 * Bash Script có thể được sử dụng để thực hiện nhiều chức năng khác nhau như:
     * Tự động hóa các tác vụ quản trị hệ thống
@@ -32,7 +35,7 @@ image: assets/my_figs/ds/bash_script.jpg
 
 **Cấu trúc cơ bản của Bash Script:**
 
-* **Dòng Shebang:** Dòng đầu tiên của tập tin bắt đầu với `#!` và chỉ định trình thông dịch shell sẽ sử dụng để thực thi tập tin. Ví dụ: `#!/bin/bash` sẽ chạy chương trình bằng `bash script`, `#!/bin/python3` sẽ chạy chương trình bằng bash `python3`.
+* **Dòng Shebang:** Dòng đầu tiên của tập tin bắt đầu với `#!` và chỉ định trình thông dịch shell sẽ sử dụng để thực thi tập tin. Ví dụ: `#!/bin/bash` sẽ chạy chương trình bằng `bash`, `#!/bin/python3` sẽ chạy chương trình bằng `python3`.
 * **Bình luận:** Dòng bắt đầu với `#` là bình luận và không được thực thi.
 * **Lệnh:** Các dòng tiếp theo chứa các lệnh bash sẽ được thực thi tuần tự.
 * **Biến:** Biến được sử dụng để lưu trữ giá trị và có thể được sử dụng trong các lệnh.
@@ -96,7 +99,7 @@ rmdir new_folder
 **Kết luận:**
 
 * Terminal, Bash Script và các dòng lệnh cơ bản là những công cụ quan trọng giúp bạn thao tác và quản trị hệ thống hiệu quả.
-* Nắm vững những công cụ này giúp bạn tăng năng suất và khả năng kiểm soát hệ thống.
+* Nắm vững những công cụ này giúp bạn tăng năng suất và khả năng kiểm soát hệ thống cũng như thực hiện phân tích tin sinh học hiệu quả hơn.
 
 
 
