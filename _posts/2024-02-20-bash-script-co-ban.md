@@ -7,7 +7,7 @@ image: assets/my_figs/ds/bash_script.jpg
 
 ---
 
-Terminal/ Bash Script được sử dụng cực kỳ phổ biến trong tin sinh học, chủ yếu dùng để thao tác và điều khiển những máy tính có hiệu năng cao (HPC) để thực hiện những tính toán chuyên biệt. Trong bài viết này, chúng tôi sẽ giới thiệu sơ lược về Terminal và Bash Script cho bạn nào mới/ muốn bắt đầu với tin sinh học!
+Terminal/ Bash Script được sử dụng cực kỳ phổ biến trong tin sinh học cũng như khoa học dữ liệu, chủ yếu dùng để thao tác và điều khiển những máy tính có hiệu năng cao (HPC) để thực hiện những tính toán chuyên biệt. Trong bài viết này, chúng tôi sẽ giới thiệu sơ lược về Terminal và Bash Script cho bạn nào mới/ muốn bắt đầu với tin sinh học/ khoa học dữ liệu.
 
 
 
