@@ -6,13 +6,16 @@ categories: [ Data science, Bioinformatics ]
 image: assets/my_figs/ds/bash_script.jpg
 
 ---
+Terminal/ Bash Script được sử dụng cực kỳ phổ biến trong tin sinh học, chủ yếu dùng để thao tác và điều khiển những máy tính có hiệu năng cao (HPC) để thực hiện những tính toán chuyên biệt. Trong bài viết này, chúng tôi sẽ giới thiệu sơ lược về Terminal và Bash Script cho bạn nào mới/ muốn bắt đầu với tin sinh học!
+
+
 
 **Terminal:**
 
 * Terminal (còn gọi là Command Line Interface - CLI) là giao diện dòng lệnh cho phép người dùng tương tác trực tiếp với hệ thống bằng cách nhập các lệnh văn bản.
 * Terminal cung cấp khả năng truy cập và điều khiển hệ thống mạnh mẽ, linh hoạt hơn so với giao diện đồ họa (GUI).
 * Terminal thường được sử dụng bởi các quản trị viên hệ thống, lập trình viên và những người dùng có kinh nghiệm về hệ thống.
-* Ngoài ra, Terminal cũng được sử dụng cực kỳ phổ biến trong tin sinh học, chủ yếu dùng để thao tác và điều khiển những máy tính có hiệu năng cao (HPC) để thực hiện những tính toán chuyên biệt
+* Ngoài ra, Terminal cũng được sử dụng cực kỳ phổ biến trong tin sinh học, chủ yếu dùng để thao tác và điều khiển những máy tính có hiệu năng cao (HPC) để thực hiện những tính toán chuyên biệt.
 
 **Bash Script:**
 
