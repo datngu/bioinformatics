@@ -7,9 +7,9 @@ image: assets/my_figs/ds/genomics_hien_dai.png
 tags: [ genomics, theory, concept, multi-omics, overview, sequencing ]
 ---
 
-Sinh học phân tử hiện đại được xây dựng trên một nguyên tắc nền tảng: mọi dạng thông tin sinh học, từ trình tự DNA đến mức biểu hiện gen, từ cấu trúc nhiễm sắc thể đến trạng thái methyl hóa, đều có thể được quy về **một hệ tọa độ dùng chung**. Bài viết này lý giải tại sao nguyên tắc đó là xương sống của toàn genomeomics hiện đại, và bằng cách nào hàng chục công nghệ tưởng chừng rời rạc lại kết hợp thành một kiến trúc nhận thức thống nhất.
+Sinh học phân tử hiện đại được xây dựng trên một nguyên tắc nền tảng: mọi dạng thông tin sinh học, từ trình tự DNA đến mức biểu hiện gen, từ cấu trúc nhiễm sắc thể đến trạng thái methyl hóa, đều có thể được quy về **một hệ tọa độ dùng chung**. Bài viết này lý giải tại sao nguyên tắc đó là xương sống của genomics hiện đại, và bằng cách nào hàng chục công nghệ tưởng chừng rời rạc lại kết hợp thành một kiến trúc nhận thức thống nhất.
 
-## 1. Hệ Tọa Độ Bộ Gen
+## 1. Hệ Tọa Độ Genome
 
 ### 1.1. Reference Genome Là Gì?
 
@@ -70,7 +70,7 @@ Oxford Nanopore có thêm khả năng đặc biệt: **đọc trực tiếp tín
 
 ### 3.3. So Sánh Và Tính Bổ Sung
 
-Hai thế hệ không cạnh tranh mà bổ trợ nhau. Long-read cung cấp cấu trúc khung, phân giải vùng lặp và xác định **structural variant** (biến thể cấu trúc: các biến đổi DNA lớn như mất đoạn, nhân đoạn, hoặc đảo đoạn nhiễm sắc thể). Short-read cung cấp độ chính xác nucleotide trên toàn genomeome với chi phí thấp hơn nhiều. Nhiều nghiên cứu quy mô lớn ngày nay kết hợp cả hai để đạt được genome assembly (lắp ghép) hoàn chỉnh nhất.
+Hai thế hệ không cạnh tranh mà bổ trợ nhau. Long-read cung cấp cấu trúc khung, phân giải vùng lặp và xác định **structural variant** (biến thể cấu trúc: các biến đổi DNA lớn như mất đoạn, nhân đoạn, hoặc đảo đoạn nhiễm sắc thể). Short-read cung cấp độ chính xác nucleotide trên toàn bộ genome với chi phí thấp hơn nhiều. Nhiều nghiên cứu quy mô lớn ngày nay kết hợp cả hai để đạt được genome assembly (lắp ghép) hoàn chỉnh nhất.
 
 ---
 
@@ -91,21 +91,21 @@ Trong bối cảnh bệnh lý, genomics so sánh **genome** (genome: toàn bộ 
 
 Nếu genomics đọc "bản thảo" DNA, **transcriptomics** (transcriptome học) lắng nghe "những gì đang được đọc to". Genome mang toàn bộ thông tin di truyền, nhưng trong mỗi loại tế bào và tại mỗi thời điểm, chỉ một phần nhỏ các gen được **phiên mã** (transcription: quá trình tổng hợp RNA từ khuôn mẫu DNA). Đây là cơ sở của tính đặc hiệu tế bào: tế bào cơ tim và tế bào thần kinh mang cùng bộ DNA nhưng biểu hiện những tập gen hoàn toàn khác nhau.
 
-**RNA-seq** đo lường lượng RNA từ mỗi gen, tạo ra ảnh chụp nhanh về trạng thái biểu hiện toàn genomeome tại một thời điểm. **Single-cell RNA-seq** (scRNA-seq) tiến thêm một bước: thay vì lấy trung bình tín hiệu của hàng triệu tế bào, nó đọc hồ sơ biểu hiện gen của **từng tế bào riêng lẻ**. Điều này cho phép nhận diện **tiểu quần thể tế bào** (cell subpopulation) ẩn bên trong một mô, phân tích quỹ đạo biệt hóa, và xác định tế bào nào trong khối u đang kháng thuốc.
+**RNA-seq** đo lường lượng RNA từ mỗi gen, tạo ra ảnh chụp nhanh về trạng thái biểu hiện toàn bộ genome tại một thời điểm. **Single-cell RNA-seq** (scRNA-seq) tiến thêm một bước: thay vì lấy trung bình tín hiệu của hàng triệu tế bào, nó đọc hồ sơ biểu hiện gen của **từng tế bào riêng lẻ**. Điều này cho phép nhận diện **tiểu quần thể tế bào** (cell subpopulation) ẩn bên trong một mô, phân tích quỹ đạo biệt hóa, và xác định tế bào nào trong khối u đang kháng thuốc.
 
 ### 4.3. Epigenomics
 
 DNA trong tế bào không tồn tại ở trạng thái "trần". Nó cuộn chặt quanh các protein **histone** (histon: protein tạo nên cấu trúc cuộn DNA trong nhân tế bào), tạo thành **chromatin** (chất nhiễm sắc: phức hợp DNA và protein trong nhân). Trạng thái của chromatin, bao gồm vùng nào đang mở, vùng nào đang đóng và các histone được đánh dấu hóa học như thế nào, quyết định gen nào được phép phiên mã.
 
-Đây là lĩnh vực **epigenomics** (hệ ngoại gen học): nghiên cứu các tầng điều hòa nằm *trên* trình tự DNA mà không thay đổi trình tự đó. **ATAC-seq** xác định vùng chromatin đang mở (tức là đang hoạt động điều hòa), **ChIP-seq** (chromatin immunoprecipitation sequencing) tìm vị trí các protein điều hòa gắn vào DNA, và **WGBS** (whole-genome bisulfite sequencing) đo mức độ methyl hóa trên từng cytosine toàn genomeome. Tất cả tín hiệu này đều được ánh xạ về cùng một tọa độ trên reference genome.
+Đây là lĩnh vực **epigenomics** (hệ ngoại gen học): nghiên cứu các tầng điều hòa nằm *trên* trình tự DNA mà không thay đổi trình tự đó. **ATAC-seq** xác định vùng chromatin đang mở (tức là đang hoạt động điều hòa), **ChIP-seq** (chromatin immunoprecipitation sequencing) tìm vị trí các protein điều hòa gắn vào DNA, và **WGBS** (whole-genome bisulfite sequencing) đo mức độ methyl hóa trên từng cytosine toàn bộ genome. Tất cả tín hiệu này đều được ánh xạ về cùng một tọa độ trên reference genome.
 
 Điều đặc biệt quan trọng về epigenomics là **epigenome có thể thay đổi theo môi trường, tuổi tác, và bệnh lý**, trong khi genome chỉ thay đổi bởi đột biến. Đây là cơ sở khoa học cho các nghiên cứu về tác động của lối sống và môi trường lên nguy cơ bệnh tật.
 
-### 4.4. Cấu Trúc Không Gian Bộ Gen
+### 4.4. Cấu Trúc Không Gian Genome
 
 Genome không phải là một sợi chỉ thẳng. Trong nhân tế bào, DNA gấp khúc theo kiến trúc ba chiều được bảo tồn chặt chẽ. Hai vùng DNA cách xa nhau hàng triệu **base pair** (cặp base: đơn vị đo độ dài DNA, một bp tương đương một cặp nucleotide bổ sung) trên trình tự tuyến tính có thể đứng sát nhau trong không gian và **tương tác trực tiếp** để điều hòa biểu hiện gen của nhau.
 
-**Hi-C** là công nghệ chụp ảnh toàn bộ các tương tác không gian trong nhân: DNA đang tiếp xúc vật lý được cố định, cắt, và giải trình tự cùng nhau, tạo ra ma trận tương tác toàn genomeome. Hiểu cấu trúc này lý giải tại sao nhiều **biến thể di truyền liên quan đến bệnh** (GWAS variants) nằm xa gen mục tiêu hàng megabase trên trình tự, nhưng vẫn điều hòa biểu hiện gen đó thông qua tiếp xúc không gian.
+**Hi-C** là công nghệ chụp ảnh toàn bộ các tương tác không gian trong nhân: DNA đang tiếp xúc vật lý được cố định, cắt, và giải trình tự cùng nhau, tạo ra ma trận tương tác toàn bộ genome. Hiểu cấu trúc này lý giải tại sao nhiều **biến thể di truyền liên quan đến bệnh** (GWAS variants) nằm xa gen mục tiêu hàng megabase trên trình tự, nhưng vẫn điều hòa biểu hiện gen đó thông qua tiếp xúc không gian.
 
 ---
 
