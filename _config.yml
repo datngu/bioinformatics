@@ -48,6 +48,7 @@ paginate_path: /page:num/
 highlighter: none
 markdown: kramdown
 kramdown:
+  math_engine: null
   syntax_highlighter_opts:
   disable : true
 
